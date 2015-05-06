@@ -1,3 +1,18 @@
 [submodule "broker-query"]
 	path = broker-query
 	url = ../broker-query.git
+[submodule "dwh-admin"]
+	path = dwh-admin
+	url = ../dwh-admin.git
+[submodule "dwh-import"]
+	path = dwh-import
+	url = ../dwh-import.git
+[submodule "dwh-query"]
+	path = dwh-query
+	url = ../dwh-query.git
+[submodule "pool-query"]
+	path = pool-query
+	url = ../pool-query.git
+[submodule "vagrant-vm"]
+	path = vagrant-vm
+	url = ../vagrant-vm.git
