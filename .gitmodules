@@ -1,0 +1,3 @@
+[submodule "broker-query"]
+	path = broker-query
+	url = ../broker-query.git
