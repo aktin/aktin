@@ -16,3 +16,6 @@
 [submodule "vagrant-vm"]
 	path = vagrant-vm
 	url = ../vagrant-vm.git
+[submodule "histream"]
+	path = histream
+	url = ../../rwmajeed/histream.git
