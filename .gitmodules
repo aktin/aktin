@@ -19,3 +19,6 @@
 [submodule "histream"]
 	path = histream
 	url = ../../rwmajeed/histream.git
+[submodule "dwh-api"]
+	path = dwh-api
+	url = git@gitlab.uni-oldenburg.de:AKTIN/dwh-api.git
