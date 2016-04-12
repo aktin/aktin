@@ -1,4 +1,5 @@
 tools/
+target/
 .metadata/
 .recommenders/
 shell_maven.bat
