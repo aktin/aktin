@@ -46,6 +46,7 @@
 	
 	<modules>
 		<module>dwh-api</module>
+		<module>broker-query</module>
 		<module>dwh-query</module>
 		<module>dwh-admin</module>
 		
