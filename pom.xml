@@ -43,7 +43,7 @@
 			<distribution>manual</distribution>
 		</license>
 	</licenses>
-	
+	<!--
 	<modules>
 		<module>dwh-api</module>
 		<module>broker-query</module>
@@ -51,8 +51,9 @@
 		<module>dwh-admin</module>
 		
 		<module>dwh-import</module>
-		<!---->
+		
 	</modules>
+	-->
 	<build>
 		<extensions>
 			<extension>
