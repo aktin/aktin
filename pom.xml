@@ -50,10 +50,10 @@
 		<module>broker-query</module>
 		<module>dwh-query</module>
 		<module>dwh-admin</module>
--->
 		
 		<module>dwh-import</module>
 		<module>vagrant-vm</module>
+-->
 	</modules>
 	<build>
 		<extensions>
