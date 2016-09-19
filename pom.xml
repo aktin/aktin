@@ -45,13 +45,15 @@
 	</licenses>
 	
 	<modules>
+<!--
 		<module>dwh-api</module>
 		<module>broker-query</module>
 		<module>dwh-query</module>
 		<module>dwh-admin</module>
 		
 		<module>dwh-import</module>
-		<!---->
+		<module>vagrant-vm</module>
+-->
 	</modules>
 	<build>
 		<extensions>
@@ -198,11 +200,6 @@
 					<artifactId>jaxb2-maven-plugin</artifactId>
 					<version>2.2</version>
 				</plugin>
-				<plugin>
-					<groupId>de.sekmi.histream.maven</groupId>
-					<artifactId>histream-maven-plugin</artifactId>
-					<version>0.9.1</version>
-				</plugin>	
 			</plugins>
 		</pluginManagement>
 	</build>
@@ -227,7 +224,7 @@
 			<dependency>
 				<groupId>de.sekmi.histream</groupId>
 				<artifactId>histream-i2b2</artifactId>
-				<version>0.9.1</version>
+				<version>0.9.2</version>
 			</dependency>
 
 		</dependencies>
