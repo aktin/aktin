@@ -157,8 +157,8 @@
 					<artifactId>maven-site-plugin</artifactId>
 					<version>3.5.1</version>
 					<configuration>
-						<generateReports>true</generateReports>
-						<chmod>false</chmod>
+						<generateReports>false</generateReports>
+						<chmod>false</chmod><!--
 						<reportPlugins>
 							<plugin>
 								<groupId>org.apache.maven.plugins</groupId>
@@ -169,7 +169,7 @@
 							<reportSet>
 								<report>javadoc</report>
 							</reportSet>
-						</reportSets>
+						</reportSets>-->
 					</configuration>
 					<dependencies>
 						<dependency>
