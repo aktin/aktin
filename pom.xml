@@ -27,7 +27,7 @@
 		<repository>
 			<id>www.aktin.org</id>
 			<name>AKTIN.org</name>
-			<url>sftp://aktin.org/httpdocs/software/repo/</url>
+			<url>scp://aktin.org/httpdocs/software/repo/</url>
 		</repository>
 		<!-- publish site to aktin.org -->
 		<site>
@@ -157,8 +157,8 @@
 					<artifactId>maven-site-plugin</artifactId>
 					<version>3.5.1</version>
 					<configuration>
-						<generateReports>true</generateReports>
-						<chmod>false</chmod>
+						<generateReports>false</generateReports>
+						<chmod>false</chmod><!--
 						<reportPlugins>
 							<plugin>
 								<groupId>org.apache.maven.plugins</groupId>
@@ -169,7 +169,7 @@
 							<reportSet>
 								<report>javadoc</report>
 							</reportSet>
-						</reportSets>
+						</reportSets>-->
 					</configuration>
 					<dependencies>
 						<dependency>
@@ -210,7 +210,7 @@
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
-				<version>4.11</version>
+				<version>4.12</version>
 				<scope>test</scope>
 			</dependency>
 			
@@ -219,7 +219,7 @@
 				<groupId>net.sf.saxon</groupId>
 				<artifactId>Saxon-HE</artifactId>
 				<!-- TODO update to latest version -->
-				<version>9.6.0-7</version>
+				<version>9.7.0-8</version>
 			</dependency>
 			<dependency>
 				<groupId>de.sekmi.histream</groupId>
