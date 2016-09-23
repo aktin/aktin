@@ -4,7 +4,7 @@
 	
 	<groupId>org.aktin</groupId>
 	<artifactId>aktin</artifactId>
-	<version>0.1-SNAPSHOT</version>
+	<version>0.2-SNAPSHOT</version>
   
 	<name>AKTIN</name>
 	<description>AKTIN Software</description>
