@@ -4,7 +4,7 @@
 	
 	<groupId>org.aktin</groupId>
 	<artifactId>aktin</artifactId>
-	<version>0.1</version>
+	<version>0.2-SNAPSHOT</version>
   
 	<name>AKTIN</name>
 	<description>AKTIN Software</description>
@@ -20,7 +20,7 @@
 
 	<scm>
 		<developerConnection>scm:git:git@gitlab.uni-oldenburg.de:AKTIN/aktin.git</developerConnection>
-		<tag>aktin-0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<distributionManagement>
 		<!-- publish releases to aktin.org -->
