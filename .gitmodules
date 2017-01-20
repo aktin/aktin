@@ -28,3 +28,6 @@
 [submodule "dwh-j2ee"]
 	path = dwh-j2ee
 	url = git@github.com:aktin/dwh-j2ee.git
+[submodule "broker"]
+	path = broker
+	url = git@github.com:aktin/broker.git
