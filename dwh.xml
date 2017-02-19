@@ -15,5 +15,6 @@
 		<module>broker</module>
 		<module>dwh-admin</module>
 		<module>dwh-j2ee</module>
+		<module>vagrant-vm</module>
 	</modules>
 </project>
