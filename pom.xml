@@ -55,6 +55,14 @@
 		<module>vagrant-vm</module>
 -->
 	</modules>
+	<repositories>
+		<repository>
+			<id>aktin-repo</id>
+			<name>AKTIN.org</name>
+			<url>http://aktin.org/software/repo/</url>
+		</repository>
+	</repositories>
+	
 	<build>
 		<extensions>
 			<extension>
