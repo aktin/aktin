@@ -28,3 +28,6 @@
 [submodule "broker"]
 	path = broker
 	url = git@github.com:aktin/broker.git
+[submodule "dwh-prefs"]
+	path = dwh-prefs
+	url = git@github.com:aktin/dwh-prefs.git

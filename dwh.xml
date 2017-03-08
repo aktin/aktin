@@ -10,6 +10,7 @@
 	<modules>
 		<module>dwh-api</module>
 		<module>dwh-db</module>
+		<module>dwh-prefs</module>
 		<module>dwh-import</module>
 		<module>dwh-query</module>
 		<module>broker</module>
