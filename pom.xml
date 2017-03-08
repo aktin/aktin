@@ -70,7 +70,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.5.1</version>
+					<version>3.6.1</version>
 					<configuration>
 						<source>1.8</source>
 						<target>1.8</target>
@@ -93,6 +93,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-war-plugin</artifactId>
+					<!-- TODO use 3.0.0 for next release -->
 					<version>2.6</version>
 					<!-- add version information to generated manifest -->
 					<configuration>
@@ -219,7 +220,7 @@
 				<groupId>net.sf.saxon</groupId>
 				<artifactId>Saxon-HE</artifactId>
 				<!-- TODO update to latest version -->
-				<version>9.7.0-8</version>
+				<version>9.7.0-15</version>
 			</dependency>
 			<dependency>
 				<groupId>de.sekmi.histream</groupId>
