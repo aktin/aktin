@@ -230,6 +230,7 @@
 				<!-- TODO update to latest version -->
 				<version>9.7.0-15</version>
 			</dependency>
+			<!-- TODO change histream to 0.12 for release -->
 			<dependency>
 				<groupId>de.sekmi.histream</groupId>
 				<artifactId>histream-i2b2</artifactId>
