@@ -3,7 +3,7 @@
 	<packaging>pom</packaging>
 	
 	<groupId>org.aktin</groupId>
-	<artifactId>aktin</artifactId>
+	<artifactId>aktin-build-all</artifactId>
 	<version>0.2-SNAPSHOT</version>
 
 	<name>Build data warehouse</name>
