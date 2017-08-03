@@ -11,9 +11,9 @@
 		<module>dwh-api</module>
 		<module>dwh-db</module>
 		<module>dwh-prefs</module>
+		<module>broker</module>
 		<module>dwh-import</module>
 		<module>dwh-query</module>
-		<module>broker</module>
 		<module>dwh-admin</module>
 		<module>dwh-j2ee</module>
 		<module>vagrant-vm</module>
