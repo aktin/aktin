@@ -233,17 +233,17 @@
 			<dependency>
 				<groupId>de.sekmi.histream</groupId>
 				<artifactId>histream-i2b2</artifactId>
-				<version>0.14-SNAPSHOT</version>
+				<version>0.13.1</version>
 			</dependency>
 			<dependency>
 				<groupId>de.sekmi.histream</groupId>
 				<artifactId>histream-export</artifactId>
-				<version>0.14-SNAPSHOT</version>
+				<version>0.13</version>
 			</dependency>
 			<dependency>
 				<groupId>de.sekmi.histream</groupId>
 				<artifactId>histream-export</artifactId>
-				<version>0.14-SNAPSHOT</version>
+				<version>0.13</version>
 				<type>test-jar</type>
 				<scope>test</scope>
 			</dependency>
