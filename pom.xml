@@ -25,14 +25,14 @@
 	<distributionManagement>
 		<!-- publish releases to aktin.org -->
 		<repository>
-			<id>www.aktin.org</id>
+			<id>aktinwww</id>
 			<name>AKTIN.org</name>
-			<url>scp://aktin.org/httpdocs/software/repo/</url>
+			<url>scp://upload.uni-oldenburg.de/software/repo/</url>
 		</repository>
 		<!-- publish site to aktin.org -->
 		<site>
-			<id>www.aktin.org</id>
-			<url>scp://aktin.org/httpdocs/software/${project.version}/</url>
+			<id>aktinwww</id>
+			<url>scp://upload.uni-oldenburg.de/software/${project.version}/</url>
 		</site>
 	</distributionManagement>
 
@@ -238,12 +238,12 @@
 			<dependency>
 				<groupId>de.sekmi.histream</groupId>
 				<artifactId>histream-export</artifactId>
-				<version>0.13</version>
+				<version>0.13.2</version>
 			</dependency>
 			<dependency>
 				<groupId>de.sekmi.histream</groupId>
 				<artifactId>histream-export</artifactId>
-				<version>0.13</version>
+				<version>0.13.2</version>
 				<type>test-jar</type>
 				<scope>test</scope>
 			</dependency>
