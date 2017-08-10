@@ -27,12 +27,12 @@
 		<repository>
 			<id>aktinwww</id>
 			<name>AKTIN.org</name>
-			<url>scp://upload.uni-oldenburg.de/software/repo/</url>
+			<url>scp://upload.uni-oldenburg.de/var/www/www.aktin.uni-oldenburg.de/htdocs/software/repo/</url>
 		</repository>
 		<!-- publish site to aktin.org -->
 		<site>
 			<id>aktinwww</id>
-			<url>scp://upload.uni-oldenburg.de/software/${project.version}/</url>
+			<url>scp://upload.uni-oldenburg.de/var/www/www.aktin.uni-oldenburg.de/htdocs/software/${project.version}/</url>
 		</site>
 	</distributionManagement>
 
