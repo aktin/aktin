@@ -12,3 +12,6 @@ Notaufnahmeprotokolle
 Die Notaufnahmeprotokolle um die es im Projekt geht liegen als PDF-Dokumente in der 
 aktuellen Version unter [notaufnahmeprotokoll.de](http://www.notaufnahmeprotokoll.de/site/downloads.html).
 
+Datenqualität Abfrage
+---------------------
+Anteil ungültiger ICD-Codes: T12,8 freitext, usw.
