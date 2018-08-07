@@ -4,7 +4,7 @@
 	
 	<groupId>org.aktin</groupId>
 	<artifactId>aktin-build-all</artifactId>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.8-SNAPSHOT</version>
 
 	<name>Build data warehouse</name>
 	<modules>
@@ -16,6 +16,5 @@
 		<module>dwh-query</module>
 		<module>dwh-admin</module>
 		<module>dwh-j2ee</module>
-		<module>vagrant-vm</module>
 	</modules>
 </project>
