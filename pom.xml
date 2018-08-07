@@ -160,9 +160,21 @@
 					<configuration>
 						<downloadSources>true</downloadSources>
 						<downloadJavadocs>true</downloadJavadocs>
+						<additionalConfig>
+							<file>
+								<name>.settings/org.eclipse.core.resources.prefs</name>
+								<content>
+								<![CDATA[
+eclipse.preferences.version=1
+encoding/<project>=${project.build.sourceEncoding}
+								]]>
+								</content>
+							</file>
+
+						</additionalConfig>
 					</configuration>
 				</plugin>
-				<plugin>    
+				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-site-plugin</artifactId>
 					<version>3.6</version>
