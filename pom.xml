@@ -69,7 +69,6 @@
 				<!-- upload via scp for site/release-->
 				<groupId>org.apache.maven.wagon</groupId>
 				<artifactId>wagon-ssh</artifactId>
-				<!-- updated from 2.10 -->
 				<version>3.0.0</version>
 			</extension>
 		</extensions>
@@ -102,7 +101,6 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-war-plugin</artifactId>
-					<!-- updated from 2.6 -->
 					<version>3.2.0</version>
 					<!-- add version information to generated manifest -->
 					<configuration>
@@ -242,7 +240,7 @@ encoding/<project>=${project.build.sourceEncoding}
 			<dependency>
 				<groupId>net.sf.saxon</groupId>
 				<artifactId>Saxon-HE</artifactId>
-				<!-- updated from 9.7.0-15. TODO move to cda-import since not used anywhere else -->
+				<!-- TODO move to cda-import since not used anywhere else -->
 				<version>9.8.0-7</version>
 			</dependency>
 			<dependency>
