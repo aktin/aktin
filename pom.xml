@@ -4,7 +4,7 @@
 	
 	<groupId>org.aktin</groupId>
 	<artifactId>aktin</artifactId>
-	<version>0.10-SNAPSHOT</version>
+	<version>0.9-SNAPSHOT</version>
   
 	<name>AKTIN</name>
 	<description>AKTIN Software</description>
@@ -181,7 +181,7 @@ encoding/<project>=${project.build.sourceEncoding}
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-site-plugin</artifactId>
-					<version>3.6</version>
+					<version>3.7.1</version>
 					<configuration>
 						<generateReports>false</generateReports>
 						<chmod>false</chmod><!--
@@ -196,6 +196,14 @@ encoding/<project>=${project.build.sourceEncoding}
 								<report>javadoc</report>
 							</reportSet>
 						</reportSets>-->
+						<executions>
+							<execution>
+								<id>attach-descriptor</id>
+								<goals>
+									<goal>attach-descriptor</goal>
+								</goals>
+							</execution>
+						</executions>
 					</configuration>
 					<dependencies>
 						<dependency>
