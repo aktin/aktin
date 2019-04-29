@@ -4,7 +4,7 @@
 	
 	<groupId>org.aktin</groupId>
 	<artifactId>aktin</artifactId>
-	<version>0.8</version>
+	<version>0.9-SNAPSHOT</version>
   
 	<name>AKTIN</name>
 	<description>AKTIN Software</description>
@@ -25,7 +25,7 @@
 	<distributionManagement>
 		<!-- publish releases to aktin.org -->
 		<repository>
-			<id>aktinwww.software.magdeburg</id>
+			<id>aktinupload.software.magdeburg</id>
 			<name>AKTIN.org</name>
 			<url>ftp://a2f8a.netcup.net/repo/</url>
 		</repository>

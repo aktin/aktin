@@ -28,3 +28,6 @@
 [submodule "dwh-prefs"]
 	path = dwh-prefs
 	url = git@github.com:aktin/dwh-prefs.git
+[submodule "r-script"]
+	path = r-script
+	url = git@github.com:aktin/r-script.git
