@@ -15,3 +15,9 @@ aktuellen Version unter [notaufnahmeprotokoll.de](http://www.notaufnahmeprotokol
 Datenqualität Abfrage
 ---------------------
 Anteil ungültiger ICD-Codes: T12,8 freitext, usw.
+
+
+Git management
+--------------
+To create a git submodule / sub repository, issue the following command:
+
