@@ -8,7 +8,7 @@
 	path = dwh-query
 	url = ../dwh-query.git
 [submodule "vagrant-vm"]
-	path = vagrant-vm
+	path = dwh-setup
 	url = ../dwh-setup.git
 [submodule "dwh-api"]
 	path = dwh-api

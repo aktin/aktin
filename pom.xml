@@ -16,10 +16,11 @@
 		<file.encoding>UTF-8</file.encoding>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<project.scm.id>git.rwth-aachen.de</project.scm.id>
 	</properties>
 
 	<scm>
-		<developerConnection>scm:git:git@gitlab.uni-oldenburg.de:AKTIN/aktin.git</developerConnection>
+		<developerConnection>scm:git:https://git.rwth-aachen.de/aktin/aktin.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 	<distributionManagement>
