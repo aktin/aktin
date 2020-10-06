@@ -9,7 +9,7 @@
 	url = ../dwh-query.git
 [submodule "vagrant-vm"]
 	path = vagrant-vm
-	url = ../vagrant-vm.git
+	url = ../dwh-setup.git
 [submodule "dwh-api"]
 	path = dwh-api
 	url = git@github.com:aktin/dwh-api.git
