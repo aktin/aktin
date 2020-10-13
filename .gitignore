@@ -4,3 +4,4 @@ target/
 .recommenders/
 shell_maven.bat
 shell+maven.bat
+.idea
