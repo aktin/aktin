@@ -1,10 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<packaging>pom</packaging>
 
 	<groupId>org.aktin</groupId>
 	<artifactId>aktin</artifactId>
-	<version>0.10</version>
+	<version>0.11-SNAPSHOT</version>
 
 	<name>AKTIN</name>
 	<description>AKTIN Software</description>
@@ -28,12 +29,12 @@
 		<repository>
 			<id>aktinupload.software.magdeburg</id>
 			<name>AKTIN.org</name>
-			<url>ftp://a2f8a.netcup.net/repo/</url>
+			<url>ftps://a2f8a.netcup.net/repo/</url>
 		</repository>
 		<!-- publish site to aktin.org -->
 		<site>
 			<id>aktinupload.software.magdeburg</id>
-			<url>ftp://a2f8a.netcup.net/${project.version}/</url>
+			<url>ftps://a2f8a.netcup.net/${project.version}/</url>
 		</site>
 	</distributionManagement>
 
@@ -46,7 +47,7 @@
 	</licenses>
 
 	<modules>
-<!--
+		<!--
 		<module>dwh-api</module>
 		<module>broker-query</module>
 		<module>dwh-query</module>
@@ -70,13 +71,12 @@
 				<!-- upload via scp for site/release-->
 				<groupId>org.apache.maven.wagon</groupId>
 				<artifactId>wagon-ssh</artifactId>
-				<version>3.3.2</version>
+				<version>3.4.3</version>
 			</extension>
 			<extension>
-				<!-- upload via scp for site/release-->
 				<groupId>org.apache.maven.wagon</groupId>
 				<artifactId>wagon-ftp</artifactId>
-				<version>3.3.2</version>
+				<version>3.4.3</version>
 			</extension>
 		</extensions>
 
@@ -169,10 +169,10 @@
 							<file>
 								<name>.settings/org.eclipse.core.resources.prefs</name>
 								<content>
-								<![CDATA[
-eclipse.preferences.version=1
-encoding/<project>=${project.build.sourceEncoding}
-								]]>
+									<![CDATA[
+										eclipse.preferences.version=1
+										encoding/<project>=${project.build.sourceEncoding}
+									]]>
 								</content>
 							</file>
 
@@ -185,7 +185,7 @@ encoding/<project>=${project.build.sourceEncoding}
 					<version>3.7.1</version>
 					<configuration>
 						<generateReports>false</generateReports>
-						<chmod>false</chmod><!--
+						<chmod>false</chmod>						<!--
 						<reportPlugins>
 							<plugin>
 								<groupId>org.apache.maven.plugins</groupId>
