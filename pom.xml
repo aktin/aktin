@@ -40,7 +40,7 @@
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
 			<distribution>manual</distribution>
 		</license>
 	</licenses>
@@ -60,7 +60,7 @@
 		<repository>
 			<id>aktin-repo</id>
 			<name>AKTIN.org</name>
-			<url>http://aktin.org/software/repo/</url>
+			<url>https://aktin.org/software/repo/</url>
 		</repository>
 	</repositories>
 
