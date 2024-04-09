@@ -54,7 +54,7 @@
 
 		<module>dwh-import</module>
 		<module>vagrant-vm</module>
--->
+                -->
 	</modules>
 	<repositories>
 		<repository>
