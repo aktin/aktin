@@ -20,7 +20,7 @@
 	</properties>
 
 	<scm>
-		<developerConnection>scm:git:https://git.rwth-aachen.de/aktin/aktin.git</developerConnection>
+		<developerConnection>scm:git:https://github.com/aktin/aktin.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 	<distributionManagement>
