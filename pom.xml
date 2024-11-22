@@ -28,7 +28,7 @@
 		<repository>
 			<id>aktinupload.software.magdeburg</id>
 			<name>AKTIN.org</name>
-			<url>ftps://a2f8a.netcup.net/repo/</url>
+			<url>ftps://a2f8a.netcup.net/software/repo/</url>
 		</repository>
 		<snapshotRepository>
 			<id>aktinupload.software.magdeburg</id>
