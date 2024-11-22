@@ -30,6 +30,11 @@
 			<name>AKTIN.org</name>
 			<url>ftps://a2f8a.netcup.net/repo/</url>
 		</repository>
+		<snapshotRepository>
+			<id>aktinupload.software.magdeburg</id>
+			<name>AKTIN.org Snapshots</name>
+			<url>ftps://a2f8a.netcup.net/software/snapshots/</url>
+		</snapshotRepository>
 		<!-- publish site to aktin.org -->
 		<site>
 			<id>aktinupload.software.magdeburg</id>
@@ -61,6 +66,24 @@
 			<id>aktin-repo</id>
 			<name>AKTIN.org</name>
 			<url>https://aktin.org/software/repo/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+
+		<repository>
+			<id>aktin-snapshots</id>
+			<name>AKTIN.org Snapshots</name>
+			<url>https://aktin.org/software/snapshots/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
 		</repository>
 	</repositories>
 
