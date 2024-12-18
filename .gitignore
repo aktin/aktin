@@ -6,3 +6,4 @@ shell_maven.bat
 shell+maven.bat
 .idea
 *.iml
+.flattened-pom.xml
