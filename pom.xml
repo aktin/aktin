@@ -30,11 +30,7 @@
 			<name>AKTIN.org</name>
 			<url>ftps://a2f8a.netcup.net/software/repo/</url>
 		</repository>
-		<snapshotRepository>
-			<id>aktinupload.software.magdeburg</id>
-			<name>AKTIN.org Snapshots</name>
-			<url>ftps://a2f8a.netcup.net/software/snapshots/</url>
-		</snapshotRepository>
+
 		<!-- publish site to aktin.org -->
 		<site>
 			<id>aktinupload.software.magdeburg</id>
