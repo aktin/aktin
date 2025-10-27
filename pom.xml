@@ -69,18 +69,6 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-
-		<repository>
-			<id>aktin-snapshots</id>
-			<name>AKTIN.org Snapshots</name>
-			<url>https://aktin.org/software/snapshots/</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
 	</repositories>
 
 	<build>
