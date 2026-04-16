@@ -34,7 +34,7 @@
 		<!-- publish site to aktin.org -->
 		<site>
 			<id>aktinupload.software.magdeburg</id>
-			<url>ftps://a2f8a.netcup.net/${project.version}/</url>
+			<url>ftps://a2f8a.netcup.net/software/${project.version}/</url>
 		</site>
 	</distributionManagement>
 
